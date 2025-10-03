@@ -10,6 +10,13 @@ Add this line to your application’s Gemfile:
 gem "neighbor-s3"
 ```
 
+And set your AWS credentials in your environment:
+
+```sh
+AWS_ACCESS_KEY_ID=...
+AWS_SECRET_ACCESS_KEY=...
+```
+
 ## Getting Started
 
 First, create a [vector bucket](https://console.aws.amazon.com/s3/vector-buckets)
