@@ -182,7 +182,7 @@ module Neighbor
           index_name: @name,
           top_k: count,
           query_vector: {
-            float32: vector,
+            float32: vector
           },
           filter: filter,
           return_metadata: with_metadata,
